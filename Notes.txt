@@ -5,3 +5,111 @@ Collection Framework Full Course - 7 DAYS MINI CHALLENGE
 ===========================================================
 Day-01 https://www.youtube.com/watch?v=rnku5CD6nMY
 ===========================================================
+Day:01 Tasks
+ a. Identify and share the other collection classes under List, Set interface and their usage
+ b. Two Differences between Collection and Collections
+ c. Two Differences between Array and List
+ d. Three real examples for unordered, ordered, sorted collection
+
+
+
+a. Other Collection Classes Under List and Set Interface and Their Usage:
+
+List Interface:
+1> ArrayList: Dynamic array, allows random access, fast for searching.
+2> LinkedList: Doubly linked list, efficient for insertions/deletions.
+3> Vector: Synchronized dynamic array, legacy class.
+
+Set Interface:
+1> HashSet: Stores unique elements, unordered, uses a hash table.
+2> LinkedHashSet: Maintains insertion order, uses a linked hash table.
+3> TreeSet: Stores unique elements in sorted (natural/comparator) order.
+
+b. Two Differences Between Collection and Collections:
+
+Collection:
+A root interface in the Java Collections Framework.
+Provides a standard for classes like List, Set, and Queue.
+
+Collections:
+A utility class with static methods like sort(), shuffle(), and min() for operations on collections.
+
+Purpose:
+Collection: Defines behavior for collection objects.
+Collections: Provides helper methods to operate on collection objects.
+
+c. Two Differences Between Array and List:
+
+Size:
+Array: Fixed size, declared at creation.
+List: Dynamic size, can grow or shrink dynamically.
+
+Type:
+Array: Can hold primitive types and objects.
+List: Can hold objects only (wrapper classes for primitives are used).
+
+d. Three Real Examples for Unordered, Ordered, and Sorted Collections:
+
+1> Unordered Collections (No specific order is maintained):
+HashSet:
+Storing a collection of unique tags in an e-commerce website (e.g., "electronics", "furniture", "fashion").
+
+HashMap (Keys):
+Storing user credentials as key-value pairs (e.g., usernames as keys and passwords as values) without needing order.
+
+HashTable:
+Managing configuration parameters for an application (e.g., "timeout", "cache size", "log level") where the order doesn't matter.
+
+2>Ordered Collections (Insertion order is maintained):
+ArrayList:
+Managing a to-do list where tasks are displayed in the order they were added by the user.
+
+LinkedHashSet:
+Storing recently accessed files in an application to ensure they appear in the same order they were opened.
+
+LinkedList:
+Creating a queue of customer service tickets where tickets are processed in the order they are received.
+
+3>Sorted Collections (Elements are sorted in natural or custom order):
+TreeSet:
+Storing employee IDs in ascending order for an HR management system.
+
+TreeMap:
+Sorting product reviews by the date they were submitted, with the most recent appearing last.
+
+PriorityQueue:
+Scheduling tasks in an operating system where tasks are ordered by their priority level.
+
+
+===========================================================
+Day-02 https://www.youtube.com/watch?v=kcmg_FWFb_c&t=35s
+===========================================================
+Day:02 Tasks
+
+I have a list of 10 names. 
+1.
+ a. which type of collection is best to retrieve the name in an index?
+ b. The method to get the name in index position five - 
+ c. The method to change the name in index position 2
+2. Get the names that has the character 'a' and store those names in a different list, sort them and print it
+3. Remove the names that start with a specific letter 'S' from a list, convert to uppercase, sort and print
+
+4. Iterate through the names and get the names that ends with 'e' and remove the duplicates, store them in a different list. print only the last 2 elements
+5. Reverse each name in the list and print the names in sorted manner - as 'Priya'- ayirP
+
+I have a list of 10 integer values  
+6. 
+ a. Which type of collection is best to insert a number in first position?
+ b. Which method throws exception if the list is empty?
+ c. Which method returns a special value if the list is empty?
+ d. What exception is thrown if the list is empty? 
+
+7. Iterate thru the list and get only the even numbers, store in another list(name is evennumbers) sort them and print it
+
+8. Iterate thru the list and get the square of each number, check if the number is less than 500, if yes store those numbers in a list(name is squarenumber)   sort them and print it
+
+9. Iterate thru the list and calculate the sum and average of numbers and print it
+10. Iterate thru the list and remove the duplicate numbers and print it descending order
+
+bonus
+Create a LinkedList with single characters as 'y','a','d','t','a','e','r',g' and make it behave as LIFO 
